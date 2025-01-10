@@ -1,0 +1,1 @@
+!function(e){var t;"function"==typeof e&&(t=e,e=null);let o=localStorage.getItem("ARCONNECT_THEME_BACKGROUND_COLOR"),l=localStorage.getItem("ARCONNECT_THEME_TEXT_COLOR");o&&document.documentElement.style.setProperty("--backgroundColor",o),l&&document.documentElement.style.setProperty("--textColor",l),globalThis.define=t}(globalThis.define);

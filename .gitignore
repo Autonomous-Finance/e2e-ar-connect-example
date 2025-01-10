@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Test results and reports
+/test-results/
+/playwright-report/
+/blob-report/
+/reports/
+/results/
+
+# Playwright
+/playwright/.cache/
+.playwright/
+
+# Coverage reports
+/coverage/
+
+# Logs
+*-debug.log
+*-error.log
+*.log
+
+.env
+
+.data/user-data/

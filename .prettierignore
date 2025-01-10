@@ -1,0 +1,11 @@
+.husky
+.vscode
+data
+node_modules
+playwright-report
+results
+test-results
+user-data
+dist
+
+

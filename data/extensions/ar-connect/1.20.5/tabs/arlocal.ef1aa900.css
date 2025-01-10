@@ -1,0 +1,105 @@
+@font-face {
+  font-family: ManropeLocal;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../Manrope-Light.53b2e6d8.woff2) format("woff2");
+}
+@font-face {
+  font-family: ManropeLocal;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../Manrope-Regular.01c139f1.woff2) format("woff2");
+}
+@font-face {
+  font-family: ManropeLocal;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../Manrope-Medium.2e0d9f07.woff2) format("woff2");
+}
+@font-face {
+  font-family: ManropeLocal;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../Manrope-SemiBold.62fc6f12.woff2) format("woff2");
+}
+@font-face {
+  font-family: ManropeLocal;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../Manrope-Bold.b161ff21.woff2) format("woff2");
+}
+@font-face {
+  font-family: ManropeLocal;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../Manrope-ExtraBold.694a9188.woff2) format("woff2");
+}
+* {
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::selection {
+  color: #fff;
+  background-color: #ab9aff99;
+}
+:root {
+  --defaultBackgroundColor: white;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --defaultBackgroundColor: black;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body#popup {
+  width: 377px;
+  height: 600px;
+}
+body.fullscreen {
+  width: 377px;
+  height: 100vh;
+  margin: 0 auto;
+}
+body.fullscreen:before {
+  content: "";
+  pointer-events: none;
+  width: 377px;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 128px #ab9aff66;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family:
+    ManropeLocal,
+    Manrope VF,
+    Manrope,
+    sans-serif !important;
+}
+button {
+  background: 0 0;
+  border: 0;
+  padding: 0;
+}
+#cover {
+  z-index: 99999999;
+  background-color: var(--backgroundColor, var(--defaultBackgroundColor, white));
+  transition: background-color 0.23s linear;
+  position: fixed;
+  inset: 0;
+}
+#cover[aria-hidden] {
+  pointer-events: none;
+  background: 0 0;
+}

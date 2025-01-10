@@ -1,0 +1,2289 @@
+{
+  "extensionDescription": {
+    "message": "Secure wallet management for Arweave",
+    "description": "Extension description"
+  },
+  "clickToCopy": {
+    "message": "Click to copy",
+    "description": "Text to indicate the ability to copy something"
+  },
+  "switchedToWallet": {
+    "message": "Switched to $ADDRESS$",
+    "description": "Notification on switching active wallet",
+    "placeholders": {
+      "address": {
+        "content": "$1",
+        "example": "ljvCPN31...-CS-6Iho8U"
+      }
+    }
+  },
+  "yes": {
+    "message": "Yes",
+    "description": "The word \"yes\""
+  },
+  "no": {
+    "message": "No",
+    "description": "The word \"no\""
+  },
+  "accept": {
+    "message": "Accept",
+    "description": "Accept terms"
+  },
+  "search": {
+    "message": "Search",
+    "description": "Search text"
+  },
+  "general": {
+    "message": "General",
+    "description": "General text"
+  },
+  "advanced": {
+    "message": "Advanced",
+    "description": "Advanced text"
+  },
+  "show": {
+    "message": "Show",
+    "description": "Show text"
+  },
+  "hide": {
+    "message": "Hide",
+    "description": "Hide text"
+  },
+  "close": {
+    "message": "Close",
+    "description": "Close button text"
+  },
+  "retry": {
+    "message": "Retry",
+    "description": "Retry button text"
+  },
+  "save": {
+    "message": "Save",
+    "description": "Save button text"
+  },
+  "generate": {
+    "message": "Generate",
+    "description": "Generate button text"
+  },
+  "add_wallet": {
+    "message": "Add wallet",
+    "description": "Add a wallet text"
+  },
+  "analytics_description": {
+    "message": "We now use analytics.",
+    "description": "Opting into Analytics text"
+  },
+  "analytics_title": {
+    "message": "Opt-In Analytics",
+    "description": "Analytics title"
+  },
+  "edit": {
+    "message": "Edit",
+    "description": "Edit text"
+  },
+  "appConnected": {
+    "message": "App connected",
+    "description": "Application connected text"
+  },
+  "appNotConnected": {
+    "message": "App not connected",
+    "description": "Application connected text"
+  },
+  "forceConnect": {
+    "message": "Force Connect",
+    "description": "Force connect button text"
+  },
+  "decline": {
+    "message": "Decline",
+    "description": "Decline terms"
+  },
+  "devtools": {
+    "message": "Devtools",
+    "description": "Devtools name"
+  },
+  "gatewayNotTestnet": {
+    "message": "Gateway is not a testnet network",
+    "description": "Gateway not a testnet notification"
+  },
+  "mint": {
+    "message": "Mint",
+    "description": "Mint button text"
+  },
+  "mintAr": {
+    "message": "Mint AR",
+    "description": "Mint AR tokens title"
+  },
+  "arMinted": {
+    "message": "Minted $QTY$ AR to $ADDRESS$",
+    "description": "Message on arweave minted to an address",
+    "placeholders": {
+      "qty": {
+        "content": "$1",
+        "example": "10"
+      },
+      "address": {
+        "content": "$2",
+        "example": "ljvCPN31...-CS-6Iho8U"
+      }
+    }
+  },
+  "tokenMintFailed": {
+    "message": "Failed to mint tokens",
+    "description": "Message indicating minting failure"
+  },
+  "mine": {
+    "message": "Mine",
+    "description": "Mine button text"
+  },
+  "mined": {
+    "message": "Mined",
+    "description": "Mine success message"
+  },
+  "miningFailed": {
+    "message": "Failed to mine",
+    "description": "Mine failure message"
+  },
+  "fillOutQtyField": {
+    "message": "Please fill out the quantity field",
+    "description": "Fill out qty field error"
+  },
+  "fillOutTargetField": {
+    "message": "Please fill out the target field",
+    "description": "Fill out target field error"
+  },
+  "addFileError": {
+    "message": "Please add a file",
+    "description": "Add file error"
+  },
+  "couldNotReadTxData": {
+    "message": "Could not read transaction data file",
+    "description": "File reading failure for tx data"
+  },
+  "invalidPassword": {
+    "message": "Invalid password",
+    "description": "Invalid password error"
+  },
+  "invalid_qty_error": {
+    "message": "0.001 is the lowest amount. Please change your limit to a higher amount",
+    "description": "Warning message for setting a limit too low"
+  },
+  "testnetLive": {
+    "message": "Testnet is live",
+    "description": "Testnet live message"
+  },
+  "testnetDown": {
+    "message": "Testnet is offline",
+    "description": "Testnet offline message"
+  },
+  "testnetGatewayUrlLabel": {
+    "message": "Testnet gateway url",
+    "description": "Label indicating the input content to be the testnet gateway url"
+  },
+  "arlocalCommandTutorial": {
+    "message": "Don't have ArLocal installed? Run it like this:",
+    "description": "Tutorial for the user on running ArLocal"
+  },
+  "addTestnetTokensSubtitle": {
+    "message": "Add testnet tokens to your wallet",
+    "description": "Subtitle indicating the ability to add testnet AR tokens to the active wallet"
+  },
+  "analytics": {
+    "message": "Analytics",
+    "description": "Analytics text"
+  },
+  "arQtyPlaceholder": {
+    "message": "AR qty...",
+    "description": "Placeholder for AR amount input"
+  },
+  "createTransaction": {
+    "message": "Create Transaction",
+    "description": "Create transaction title"
+  },
+  "createTransactionSubtitle": {
+    "message": "Send a transaction with tags and data",
+    "description": "Send transaction subtitle"
+  },
+  "leaveEmptyForNone": {
+    "message": "Leave empty for none...",
+    "description": "Placeholder for inputs that take empty values as none"
+  },
+  "target": {
+    "message": "Target",
+    "description": "Target label"
+  },
+  "amount": {
+    "message": "Amount",
+    "description": "Amount label"
+  },
+  "tags": {
+    "message": "Tags",
+    "description": "Tags label"
+  },
+  "name": {
+    "message": "Name",
+    "description": "Name label"
+  },
+  "tagNamePlaceholder": {
+    "message": "Tag name...",
+    "description": "Tag name placeholder"
+  },
+  "value": {
+    "message": "Value",
+    "description": "Value label"
+  },
+  "tagValuePlaceholder": {
+    "message": "Tag value...",
+    "description": "Tag value placeholder"
+  },
+  "addTag": {
+    "message": "Add tag",
+    "description": "Add tag button"
+  },
+  "data": {
+    "message": "Data",
+    "description": "Data label"
+  },
+  "dragAndDropFile": {
+    "message": "Drag and drop file...",
+    "description": "File input label"
+  },
+  "password": {
+    "message": "Password",
+    "description": "Password label"
+  },
+  "new_password": {
+    "message": "New Password",
+    "description": "Password label"
+  },
+  "confirm_new_password": {
+    "message": "Re-enter New Password",
+    "description": "Password label"
+  },
+  "enterPasswordToDecrypt": {
+    "message": "Enter password to decrypt wallet...",
+    "description": "Password request to decrypt wallet"
+  },
+  "sendTransaction": {
+    "message": "Send Transaction",
+    "description": "Send transaction button"
+  },
+  "permissionDescriptionAccessAddress": {
+    "message": "Allows access to the active address",
+    "description": "Description for the \"ACCESS_ADDRESS\" permission"
+  },
+  "permissionDescriptionAccessPublicKey": {
+    "message": "Allows access to the active address public key",
+    "description": "Description for the \"ACCESS_PUBLIC_KEY\" permission"
+  },
+  "permissionDescriptionAccessAllAddresses": {
+    "message": "Allows access to all the active and non-active wallet addresses",
+    "description": "Description for the \"ACCESS_ALL_ADDRESSES\" permission"
+  },
+  "permissionDescriptionSign": {
+    "message": "Allows the signing of a transaction.",
+    "description": "Description for the \"SIGN_TRANSACTION\" permission"
+  },
+  "permissionDescriptionEncrypt": {
+    "message": "Allows encrypting data using wallet's keyfile. It does not grant access to keyfile.",
+    "description": "Description for the \"ENCRYPT\" permission"
+  },
+  "permissionDescriptionDecrypt": {
+    "message": "Allows decrypting data using wallet's keyfile. It does not grant access to keyfile.",
+    "description": "Description for the \"DECRYPT\" permission"
+  },
+  "permissionDescriptionSignature": {
+    "message": "Allows the signing of data.",
+    "description": "Description for the \"SIGNATURE\" permission"
+  },
+  "permissionDescriptionArweaveConfig": {
+    "message": "Access read access to ArConnect configuration file",
+    "description": "Description for the \"ACCESS_ARWEAVE_CONFIG\" permission"
+  },
+  "permissionDescriptionDispatch": {
+    "message": "Allows using dispatch transactions.",
+    "description": "Description for the \"DISPATCH\" permission"
+  },
+  "permissionAccessTokens": {
+    "message": "Allows access to view tokens and their balances that you've added to your wallet",
+    "description": "Description for the permission to access user-added token and token balances"
+  },
+  "copyId": {
+    "message": "Copy ID",
+    "description": "Copy ID button text"
+  },
+  "connectionFailure": {
+    "message": "Failed to connect to app",
+    "description": "Notification about app connection failure in devtools"
+  },
+  "permissions": {
+    "message": "Permissions",
+    "description": "Permissions title"
+  },
+  "edit_permissions": {
+    "message": "Edit permissions",
+    "description": "Edit permissions title"
+  },
+  "app_permissions": {
+    "message": "App permissions",
+    "description": "App permissions title"
+  },
+  "allowance": {
+    "message": "Allowance",
+    "description": "Allowance title"
+  },
+  "allowanceTip": {
+    "message": "Apply a spending limit for this application",
+    "description": "Tip explaining allowances for the user"
+  },
+  "enabled": {
+    "message": "Enabled",
+    "description": "Enabled label"
+  },
+  "disabled": {
+    "message": "Disabled",
+    "description": "Disabled label"
+  },
+  "u_token_disabled": {
+    "message": "Transfering of U-Token is currently disabled",
+    "description": "U-token Disabled label"
+  },
+  "spent": {
+    "message": "Spent",
+    "description": "Spent text"
+  },
+  "reset": {
+    "message": "Reset",
+    "description": "Reset text"
+  },
+  "resetSpentQty": {
+    "message": "Reset spent quantity",
+    "description": "Reset tooltip text"
+  },
+  "limit": {
+    "message": "Limit",
+    "description": "Limit text"
+  },
+  "gateway": {
+    "message": "Gateway",
+    "description": "Gateway title"
+  },
+  "bundlrNode": {
+    "message": "Bundler Node",
+    "description": "Bundler node title"
+  },
+  "removeApp": {
+    "message": "Remove app",
+    "description": "Remove app button"
+  },
+  "removeAppNote": {
+    "message": "Remove all permissions and disconnect the app from ArConnect.",
+    "description": "Remove app note paragraph"
+  },
+  "remove": {
+    "message": "Remove",
+    "description": "Remove button text"
+  },
+  "block": {
+    "message": "Block app",
+    "description": "Block button"
+  },
+  "unblock": {
+    "message": "Unblock app",
+    "description": "Unblock button"
+  },
+  "setCustomGateway": {
+    "message": "Set custom gateway",
+    "description": "Notification about setting a custom gateway for an app"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Settings title"
+  },
+  "quick_settings": {
+    "message": "Quick Settings",
+    "description": "Quick Settings title"
+  },
+  "setting_apps": {
+    "message": "Applications",
+    "description": "Apps settings title"
+  },
+  "setting_wallets": {
+    "message": "Wallets",
+    "description": "Wallets settings title"
+  },
+  "setting_config": {
+    "message": "Download config",
+    "description": "Config settings title"
+  },
+  "setting_about": {
+    "message": "About",
+    "description": "About settings title"
+  },
+  "setting_reset": {
+    "message": "Reset",
+    "description": "Reset settings title"
+  },
+  "setting_analytic": {
+    "message": "Analytics",
+    "description": "Analytics to help make ArConnect better"
+  },
+  "setting_fee_multiplier": {
+    "message": "Fee multiplier",
+    "description": "Fee multiplier settings title"
+  },
+  "setting_currency": {
+    "message": "Currency",
+    "description": "Reset settings title"
+  },
+  "currency": {
+    "message": "Currency",
+    "description": "Select currency"
+  },
+  "setting_dre_node": {
+    "message": "Warp DRE node",
+    "description": "Warp DRE node setting title"
+  },
+  "setting_arverify": {
+    "message": "ArVerify treshold",
+    "description": "ArVerify settings title"
+  },
+  "setting_arconfetti": {
+    "message": "ArConfetti effect",
+    "description": "ArConfetti effect settings title"
+  },
+  "setting_sign_notification": {
+    "message": "Sign notification",
+    "description": "Sign notification settings title"
+  },
+  "setting_sign_settings": {
+    "message": "Sign settings",
+    "description": "Sign settings title"
+  },
+  "setting_display_theme": {
+    "message": "Theme",
+    "description": "Theme settings title"
+  },
+  "setting_wayfinder": {
+    "message": "Wayfinder",
+    "description": "Wayfinder settings title"
+  },
+  "setting_notifications": {
+    "message": "Notifications",
+    "description": "Notifications settings title"
+  },
+  "setting_notifications_description": {
+    "message": "Manage alerts for activities in your wallets",
+    "description": "Notifications settings description"
+  },
+  "setting_all_settings": {
+    "message": "All Settings",
+    "description": "All settings title"
+  },
+  "setting_all_settings_description": {
+    "message": "",
+    "description": "All settings description"
+  },
+  "setting_apps_description": {
+    "message": "View all connected apps & settings",
+    "description": "App settings description"
+  },
+  "setting_wallets_description": {
+    "message": "Manage your wallets",
+    "description": "Wallet settings description"
+  },
+  "setting_config_description": {
+    "message": "Download ArConnect config",
+    "description": "Config settings description"
+  },
+  "setting_about_description": {
+    "message": "Information about ArConnect",
+    "description": "Config settings description"
+  },
+  "setting_reset_description": {
+    "message": "Remove all wallets and data",
+    "description": "Reset settings description"
+  },
+  "setting_analytics_description": {
+    "message": "Provide the ArConnect team useful anonymous data to improve the project",
+    "description": "ArConnect Analytics description"
+  },
+  "setting_fee_multiplier_description": {
+    "message": "Control the fees paid after transactions",
+    "description": "Fee multiplier settings description"
+  },
+  "setting_setting_currency_description": {
+    "message": "Fiat display currency",
+    "description": "Currency settings description"
+  },
+  "setting_setting_dre_node_description": {
+    "message": "Set preferred DRE node for contract evaluation",
+    "desription": "Preferred DRE node setting description"
+  },
+  "setting_setting_arverify_description": {
+    "message": "Set the verification threshold used",
+    "description": "Arverify settings description"
+  },
+  "setting_setting_arconfetti_description": {
+    "message": "Show animation on wallet usage",
+    "description": "ArConfetti settings description"
+  },
+  "setting_sign_notification_description": {
+    "message": "Notify when signing a transaction",
+    "description": "Sign notification settings description"
+  },
+  "setting_display_theme_description": {
+    "message": "The theme of the extension UI",
+    "description": "Display theme settings description"
+  },
+  "setting_wayfinder_description": {
+    "message": "Experimental system-wide wayfinder for ar.io gateways",
+    "description": "Wayfinder settings description"
+  },
+  "search_pick_option": {
+    "message": "Search for an option...",
+    "description": "Search input placeholder for the \"pick\" option component"
+  },
+  "search_apps": {
+    "message": "Search for an app...",
+    "description": "Search input placeholder for apps"
+  },
+  "search_wallets": {
+    "message": "Search for a wallet...",
+    "description": "Search input placeholder for wallets"
+  },
+  "search_tokens": {
+    "message": "Search for a token...",
+    "description": "Search input placeholder for tokens"
+  },
+  "export_keyfile": {
+    "message": "Export keyfile",
+    "description": "Export keyfile button"
+  },
+  "export_keyfile_description": {
+    "message": "Enter your password to export wallet keyfile",
+    "description": "Export keyfile description"
+  },
+  "edit_wallet": {
+    "message": "Edit Wallet",
+    "description": "Edit wallet button"
+  },
+  "remove_wallet": {
+    "message": "Remove wallet",
+    "description": "Remove wallet button"
+  },
+  "edit_wallet_name": {
+    "message": "Edit name",
+    "description": "Edit wallet name title in settings"
+  },
+  "updated_wallet_name": {
+    "message": "Updated wallet name",
+    "description": "Wallet name update notification content"
+  },
+  "error_updating_wallet_name": {
+    "message": "Error updating wallet name",
+    "description": "Wallet name update error notification content"
+  },
+  "copied_address": {
+    "message": "$NAME$ ($ADDRESS$) address copied",
+    "description": "Address copy notification",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Account 1"
+      },
+      "address": {
+        "content": "$2",
+        "example": "ljvCPN31...-CS-6Iho8U"
+      }
+    }
+  },
+  "copied_address_2": {
+    "message": "address copied",
+    "description": "Address copy notification 2"
+  },
+  "cannot_edit_with_ans": {
+    "message": "Cannot edit nickname. Wallet already has an ANS label.",
+    "description": "Explainer for disabled edits for wallets with ANS profiles"
+  },
+  "add_wallet_subtitle": {
+    "message": "You can add as many as you like",
+    "description": "Subtitle for add wallet section"
+  },
+  "drag_and_drop_wallet": {
+    "message": "Drag and drop wallet...",
+    "description": "Wallet input text"
+  },
+  "enter_new_password": {
+    "message": "Enter your new password...",
+    "description": "Password input placeholder"
+  },
+  "reenter_new_password": {
+    "message": "Re-enter your new password...",
+    "description": "Re-enter input placeholder"
+  },
+  "enter_password": {
+    "message": "Enter your password...",
+    "description": "Password input placeholder"
+  },
+  "enter_password_again": {
+    "message": "Re-enter your password...",
+    "description": "Re-enter password input placeholder"
+  },
+  "passwords_match": {
+    "message": "It's a match!",
+    "description": "Passwords are matching indicator text"
+  },
+  "passwords_not_match": {
+    "message": "Passwords don't match",
+    "description": "Invalid re-entered password error"
+  },
+  "passwords_match_previous": {
+    "message": "New password cannot be the same as your old password",
+    "description": "Password must be different from old one"
+  },
+  "invalid_mnemonic": {
+    "message": "Invalid mnemonic seedphrase",
+    "description": "Invalid mnemonic seedphrase error notification"
+  },
+  "added_wallet": {
+    "message": "Added wallet",
+    "description": "Added wallets notification"
+  },
+  "error_adding_wallet": {
+    "message": "Error adding wallet. Check your password",
+    "description": "Error on wallet adding notification"
+  },
+  "no_apps_added": {
+    "message": "No apps added yet...",
+    "description": "No apps added message"
+  },
+  "remove_wallet_modal_title": {
+    "message": "Remove wallet?",
+    "description": "Remove wallet modal title"
+  },
+  "remove_wallet_modal_content": {
+    "message": "Are you sure you want to continue? This cannot be reversed.",
+    "description": "Remove wallet modal content"
+  },
+  "confirm": {
+    "message": "Confirm",
+    "description": "Confirm button text"
+  },
+  "confirm_transaction": {
+    "message": "Confirm Transaction",
+    "description": "Confirm Transaction Header"
+  },
+  "subscription_payment": {
+    "message": "Subscription Payment",
+    "description": "Subscribtion payment header"
+  },
+  "removed_wallet_notification": {
+    "message": "Removed wallet",
+    "description": "Notification for wallet removal"
+  },
+  "remove_wallet_error_notification": {
+    "message": "Error removing wallet",
+    "description": "Notification for wallet removal error"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Cancel button text"
+  },
+  "export": {
+    "message": "Export",
+    "description": "Export button text"
+  },
+  "export_wallet_modal_title": {
+    "message": "Export wallet",
+    "description": "Export wallet modal title"
+  },
+  "export_wallet_error": {
+    "message": "Error exporting wallet",
+    "description": "Wallet export error notification"
+  },
+  "import_wallet_key_length_short_error_title": {
+    "message": "Key Length Too Short",
+    "description": "Key Length Too Short error title"
+  },
+  "import_wallet_key_length_short_error": {
+    "message": "The key length of the wallet you are importing is less than the required length to transact on the AO network.  It is recommended you create a new ArConnect wallet and transfer your assets to your new wallet.",
+    "description": "Key Length Too Short error"
+  },
+  "generate_wallet_in_progress": {
+    "message": "The wallet creation process can take 30-60 seconds.",
+    "description": "Generate wallet in progresss text"
+  },
+  "development_version": {
+    "message": "Development",
+    "description": "Development version badge text"
+  },
+  "permissions_used": {
+    "message": "We use the following permissions:",
+    "description": "Used permissions label"
+  },
+  "reset_warning": {
+    "message": "Resetting ArConnect will remove all of your data from it. This includes your wallets, your settings and cached data.",
+    "description": "Warning about resetting ArConnect"
+  },
+  "irreversible_action": {
+    "message": "This action is IRREVERSIBLE!",
+    "description": "Warning about an irreversible action"
+  },
+  "reset_error": {
+    "message": "Could not reset ArConnect",
+    "description": "Error message on reset"
+  },
+  "welcome_to": {
+    "message": "Welcome to,",
+    "description": "\"Welcome to\" text"
+  },
+  "get_me_started": {
+    "message": "Get me started",
+    "description": "Get me started button text"
+  },
+  "have_wallet": {
+    "message": "I have a wallet",
+    "description": "Has wallet button text"
+  },
+  "skip": {
+    "message": "Skip",
+    "description": "Skip label"
+  },
+  "next": {
+    "message": "Next",
+    "description": "Next button text"
+  },
+  "what_is_arweave": {
+    "message": "What is Arweave?",
+    "description": "What is arweave title"
+  },
+  "about_arweave": {
+    "message": "Arweave is a protocol that allows you to store data permanently, sustainably, with a single upfront fee. The protocol matches people who have hard drive space to spare with those individuals and organizations that need to store data or host content permanently.",
+    "description": "A short paragraph explaining Arweave"
+  },
+  "what_is_the_permaweb": {
+    "message": "What is the permaweb?",
+    "description": "What is the permaweb title"
+  },
+  "about_permaweb": {
+    "message": "The permaweb on Arweave is the next evolution of the web, allowing developers and users to share a resilient knowledge base that is replicated in vast numbers across the world, perpetually. Besides data, Arweave also hosts a number of fully decentralized, permanent applications.",
+    "description": "A short paragraph explaining the permaweb"
+  },
+  "what_is_arconnect": {
+    "message": "What is ArConnect?",
+    "description": "What is arconnect title"
+  },
+  "about_arconnect": {
+    "message": "ArConnect is crypto wallet extension allowing you to interact with permaweb apps securely. It also lets you to store and manage your funds easily. With ArConnect, your entry to the Arweave ecosystem will be simple and seamless.",
+    "description": "A short paragraph explaining arconnect"
+  },
+  "read_more_arwiki": {
+    "message": "Read more at",
+    "description": "\"Read more at (ArWiki)\" text"
+  },
+  "backup": {
+    "message": "Backup",
+    "description": "Backup title"
+  },
+  "backup_wallet_title": {
+    "message": "Backup your wallet",
+    "description": "Backup walet title"
+  },
+  "backup_wallet_content": {
+    "message": "Save this 12 word seedphrase to a password manager, or write it down to a paper. Never share it with anyone.",
+    "description": "Backup wallet paragraph"
+  },
+  "copySeed": {
+    "message": "Copy seedphrase",
+    "description": "Copy seedphrase text"
+  },
+  "done": {
+    "message": "Done",
+    "description": "Done button text"
+  },
+  "setup_complete_title": {
+    "message": "Setup complete",
+    "description": "Setup complete title"
+  },
+  "generated_wallet": {
+    "message": "Your Arweave wallet with address $ADDRESS$ has been generated.  You are now ready to browse the Permaweb!",
+    "description": "Generated wallet notification",
+    "placeholders": {
+      "address": {
+        "content": "$1",
+        "example": "ljvCPN31...-CS-6Iho8U"
+      }
+    }
+  },
+  "error_generating_wallet": {
+    "message": "Error generating wallet",
+    "description": "Error generating wallet notification"
+  },
+  "written_down_seed": {
+    "message": "I have written down my seedphrase",
+    "description": "Label for written down seedphrase checkbox"
+  },
+  "generating_wallet": {
+    "message": "Generating wallet...",
+    "description": "Generating wallet in progress text"
+  },
+  "longer_than_usual": {
+    "message": "Please wait, this is taking longer than usual...",
+    "description": "Longer than usual text"
+  },
+  "keyfile": {
+    "message": "Keyfile",
+    "description": "Keyfile text"
+  },
+  "confirm_seed": {
+    "message": "Confirm your seedphrase",
+    "description": "Confirm seedphrase title"
+  },
+  "confirm_seed_paragraph": {
+    "message": "Verify your seedphrase by completing the missing mnemonic words in the following section.",
+    "description": "Confirm seedphrase explainer paragraph"
+  },
+  "correct": {
+    "message": "Correct",
+    "description": "Correct text"
+  },
+  "invalid_seed": {
+    "message": "Invalid words entered. Please try again",
+    "description": "Invalid seed order notification"
+  },
+  "create_password": {
+    "message": "Create password",
+    "description": "Create password title"
+  },
+  "create_password_paragraph": {
+    "message": "Enter a password to secure ArConnect. We'll use this to encrypt your wallets.",
+    "description": "Create password explainer paragraph"
+  },
+  "password_not_strong": {
+    "message": "Your password is not strong enough",
+    "description": "Notification about bad password strength"
+  },
+  "password_strength_1": {
+    "message": "Weak password",
+    "description": "Level 1 strength password text"
+  },
+  "password_strength_2": {
+    "message": "Weak password",
+    "description": "Level 2 strength password text"
+  },
+  "password_strength_3": {
+    "message": "Okay password",
+    "description": "Level 3 strength password text"
+  },
+  "password_strength_4": {
+    "message": "Strong password",
+    "description": "Level 4 strength password text"
+  },
+  "password_strength_5": {
+    "message": "Very strong password",
+    "description": "Level 5 strength password text"
+  },
+  "password_strength_checklist_case": {
+    "message": "Uses lowercase and uppercase letters",
+    "description": "Password strength checklist lowercase and uppercase element"
+  },
+  "password_strength_checklist_number": {
+    "message": "Uses numbers",
+    "description": "Password strength checklist number element"
+  },
+  "password_strength_checklist_symbol": {
+    "message": "Uses symbols",
+    "description": "Password strength checklist symbol element"
+  },
+  "password_strength_checklist_length": {
+    "message": "Is at least $NUMBER$ characters long",
+    "description": "Password strength checklist length element",
+    "placeholders": {
+      "number": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "password_change": {
+    "message": "Don't want to change your password? Continue using your wallet without changing it",
+    "description": "Skip password change"
+  },
+  "no_wallets_added": {
+    "message": "No wallets added",
+    "description": "No wallets added title (devtools)"
+  },
+  "no_wallets_added_paragraph": {
+    "message": "Visit the setup page to use this feature.",
+    "description": "No wallets added text (devtools)"
+  },
+  "setup": {
+    "message": "Setup",
+    "description": "Setup button text"
+  },
+  "or": {
+    "message": "Or",
+    "description": "\"Or\" text"
+  },
+  "enter_seedphrase": {
+    "message": "Enter seedphrase...",
+    "description": "Enter seedphrase input placerholder"
+  },
+  "generate_wallet": {
+    "message": "Generate wallet",
+    "description": "Generate wallet button text"
+  },
+  "enter_pw_gen_wallet": {
+    "message": "Enter password to generate wallet",
+    "description": "Request to enter password before generating a wallet in settings"
+  },
+  "select_recipient": {
+    "message": "Select Recipient",
+    "description": "Select recipient when sending currency"
+  },
+  "send_to": {
+    "message": "Send To",
+    "description": "Send To for slider menu"
+  },
+  "no_close_window": {
+    "message": "Don't close the window!",
+    "description": "Request to not close the window"
+  },
+  "generated_wallet_dashboard": {
+    "message": "Generated wallet, you may close the winodw now",
+    "description": "Notification about wallet generation"
+  },
+  "provide_seedphrase": {
+    "message": "Provide seedphrase",
+    "description": "Provide seedphrase for title in load wallet setup"
+  },
+  "provide_seedphrase_paragraph": {
+    "message": "Drag and drop your keyfile or enter the 12 word seedphrase you saved when you generated your wallet. Make sure it is in the right order.",
+    "description": "Explainer about the seedphrase loading"
+  },
+  "sign_in": {
+    "message": "Sign In",
+    "description": "Sign in title"
+  },
+  "app_wants_to_connect": {
+    "message": "An app wants to connect",
+    "description": "App wants to connect label"
+  },
+  "wallet": {
+    "message": "Wallet",
+    "description": "Wallet label"
+  },
+  "enter_your_password": {
+    "message": "Enter your password...",
+    "description": "Enter password placeholder"
+  },
+  "connect": {
+    "message": "Connect",
+    "description": "Connect button text"
+  },
+  "always_allow": {
+    "message": "Always allow",
+    "description": "Always allow button"
+  },
+  "always_ask_permission": {
+    "message": "Always ask permission",
+    "description": "Always allow button"
+  },
+  "always_ask_tooltip": {
+    "message": "Always ask for confirmation before any interaction",
+    "description": "Always allow tooltip"
+  },
+  "allow_selected_permissions": {
+    "message": "Allow selected permissions",
+    "description": "Always allow button"
+  },
+  "allow_these_permissions": {
+    "message": "$APPNAME$ wants to connect to your wallet with the following permissions",
+    "description": "Auth permissions label",
+    "placeholders": {
+      "appname": {
+        "content": "$1",
+        "example": "permafacts.arweave.dev"
+      }
+    }
+  },
+  "reset_allowance": {
+    "message": "Reset allowance",
+    "description": "Reset allowance title"
+  },
+  "reset_spent": {
+    "message": "Reset Spent",
+    "description": "Reset spent button"
+  },
+  "allowance_limit_reached": {
+    "message": "This app has reached its allowance limit",
+    "description": "App allowance limit reached label"
+  },
+  "unlock": {
+    "message": "Unlock",
+    "description": "Unlock title"
+  },
+  "unlock_wallet_to_use": {
+    "message": "You'll need to unlock your wallet to continue using it.",
+    "description": "Unlock wallet explanation"
+  },
+  "reset_wallet_password_to_use": {
+    "message": "It's recommended to reset your password for enhanced security.",
+    "description": "Reset wallet password explanation"
+  },
+  "receive": {
+    "message": "Receive",
+    "description": "Receive title"
+  },
+  "share": {
+    "message": "Share",
+    "description": "Share button text"
+  },
+  "send": {
+    "message": "Send",
+    "description": "Send title"
+  },
+  "send_message_optional": {
+    "message": "Message (optional)",
+    "description": "Optional message field"
+  },
+  "network_fee": {
+    "message": "network fee",
+    "description": "Transaction network fee text"
+  },
+  "estimated": {
+    "message": "estimated",
+    "description": "estimated"
+  },
+  "invalid_amount": {
+    "message": "Amount has to be more than 0",
+    "description": "Invalid tx amount message"
+  },
+  "invalid_address": {
+    "message": "Target is not a valid address",
+    "description": "Invalid address message"
+  },
+  "sent_tx": {
+    "message": "Sent transaction",
+    "description": "Transaction sent successfuly notification"
+  },
+  "failed_tx": {
+    "message": "Could not send transaction",
+    "description": "Transfer error notification"
+  },
+  "assets": {
+    "message": "Assets",
+    "description": "Assets title"
+  },
+  "asset": {
+    "message": "Asset",
+    "description": "Asset title"
+  },
+  "view_all": {
+    "message": "View all",
+    "description": "View all link text"
+  },
+  "view_all_assets": {
+    "message": "View all assets",
+    "description": "View all link text"
+  },
+  "setting_tokens": {
+    "message": "Tokens",
+    "description": "Tokens setting title"
+  },
+  "setting_tokens_description": {
+    "message": "Manage tokens added by dApps or the user",
+    "description": "Tokens setting description"
+  },
+  "setting_contacts": {
+    "message": "Contacts",
+    "description": "Contacts setting title"
+  },
+  "setting_contact": {
+    "message": "Contact",
+    "description": "Contact setting title"
+  },
+  "setting_contacts_description": {
+    "message": "Add/edit contacts",
+    "description": "Contacts setting description"
+  },
+  "explore": {
+    "message": "Explore",
+    "description": "Explore title"
+  },
+  "explore_article_read_more": {
+    "message": "Read more",
+    "description": "Read more link text"
+  },
+  "addToken": {
+    "message": "Add token",
+    "description": "Add token title"
+  },
+  "addTokenParagraph": {
+    "message": "$APP$ would like to add a token to your wallet. Please review its details below.",
+    "description": "Add token explanation",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ardrive.app"
+      }
+    }
+  },
+  "recents": {
+    "message": "Recents",
+    "description": "recents for send modal"
+  },
+  "all_set": {
+    "message": "You're all set!",
+    "description": "All set title"
+  },
+  "all_set_paragraph": {
+    "message": "ArConnect has been set up with your password and wallets. You can close the window now.",
+    "description": "Paragraph indicating setup"
+  },
+  "token_add_failure": {
+    "message": "Failed to add token",
+    "description": "Failed to add token error message"
+  },
+  "no_assets": {
+    "message": "No assets added...",
+    "description": "No assets added note"
+  },
+  "about_title": {
+    "message": "About",
+    "description": "ABout title"
+  },
+  "no_description": {
+    "message": "No description available",
+    "description": "No token description note"
+  },
+  "info_title": {
+    "message": "Info",
+    "description": "Token info section title"
+  },
+  "no_price": {
+    "message": "No price data...",
+    "description": "No price data available note"
+  },
+  "collectibles": {
+    "message": "Collectibles",
+    "description": "Collectibles title"
+  },
+  "collectible": {
+    "message": "Collectible",
+    "description": "Collectible title"
+  },
+  "no_collectibles": {
+    "message": "No collectibles added...",
+    "description": "No collectibles added note"
+  },
+  "custom_gateway_warning": {
+    "message": "This token uses a custom gateway. This might slow down evaluation.",
+    "description": "Warning about adding tokens with custom gateways"
+  },
+  "custom_gateway_warning_simple": {
+    "message": "Custom gateway used",
+    "description": "Custom gateway label for transaction details"
+  },
+  "choose_theme": {
+    "message": "Choose UI theme",
+    "description": "UI theme option title in setup"
+  },
+  "light_theme": {
+    "message": "Light",
+    "description": "Light theme"
+  },
+  "dark_theme": {
+    "message": "Dark",
+    "description": "Dark theme"
+  },
+  "system_theme": {
+    "message": "System",
+    "description": "System theme"
+  },
+  "migration_available": {
+    "message": "Migration available",
+    "description": "Migration available title"
+  },
+  "migration_available_paragraph": {
+    "message": "It appears you have already used an older version of ArConnect before. We can migrate your wallets from this previous version to use. You'll still have to complete the setup process.",
+    "description": "Migration available paragraph"
+  },
+  "migrate": {
+    "message": "Migrate",
+    "description": "Migrate button text"
+  },
+  "migration_confirmation": {
+    "message": "Your wallets will be migrated once you complete the setup",
+    "description": "Migration confirmation notification"
+  },
+  "migrate_wallets_list": {
+    "message": "These wallets will be migrated:",
+    "description": "Label for migrated wallets"
+  },
+  "migrate_wallets_not_migrated": {
+    "message": "These wallets wil NOT be migrated:",
+    "description": "Label for wallets that won't be migrated"
+  },
+  "migrate_anyway": {
+    "message": "Migrate anyway!",
+    "description": "Migrate anyway button text"
+  },
+  "migration_available_welcome": {
+    "message": "You can migrate your wallets from the old ArConnect by clicking \"I have a wallet\".",
+    "description": "Migration available banner text"
+  },
+  "click_and_drag": {
+    "message": "Click & drag",
+    "description": "Hover text for drag icon"
+  },
+  "token_type": {
+    "message": "Token Type",
+    "description": "Token type label"
+  },
+  "token_type_asset": {
+    "message": "Asset",
+    "description": "Asset token type"
+  },
+  "token_type_collectible": {
+    "message": "Collectible",
+    "description": "Collectible token type (NFT, etc.)"
+  },
+  "remove_token": {
+    "message": "Remove token",
+    "description": "Remove token button text"
+  },
+  "refresh_token": {
+    "message": "Refresh token",
+    "description": "Refresh token button text"
+  },
+  "your_balance": {
+    "message": "Your balance",
+    "description": "Balance label for tokens"
+  },
+  "history": {
+    "message": "History",
+    "description": "History title"
+  },
+  "no_interaction_history": {
+    "message": "No history with this asset",
+    "description": "No interaction history text for an asset"
+  },
+  "titles_transaction": {
+    "message": "Transaction",
+    "description": "Transaction title"
+  },
+  "transaction_id": {
+    "message": "Transaction ID",
+    "description": "Transaction ID label"
+  },
+  "process_id": {
+    "message": "Process ID",
+    "description": "Process ID label"
+  },
+  "transaction_from": {
+    "message": "From",
+    "description": "Transaction \"from\" label"
+  },
+  "transaction_to": {
+    "message": "To",
+    "description": "Transaction \"to\" label"
+  },
+  "transaction_fee": {
+    "message": "Network fee",
+    "description": "Transaction \"fee\" label"
+  },
+  "transaction_size": {
+    "message": "Size",
+    "description": "Transaction \"size\" label"
+  },
+  "transaction_confirmations": {
+    "message": "Confirmations",
+    "description": "Transaction \"confirmations\" label"
+  },
+  "transaction_block_height": {
+    "message": "Block",
+    "description": "Transaction \"block height\" label"
+  },
+  "transaction_block_timestamp": {
+    "message": "Timestamp",
+    "description": "Transaction \"timestamp\" label"
+  },
+  "transaction_tags": {
+    "message": "Tags",
+    "description": "Transaction \"tags\" label"
+  },
+  "transaction_input": {
+    "message": "Input",
+    "description": "Contract interaction input label"
+  },
+  "transaction_data": {
+    "message": "Data",
+    "description": "Transaction \"data\" label"
+  },
+  "transaction_data_binary_warning": {
+    "message": "Cannot display binary transaction data...",
+    "description": "Warning about ArConnect not being able to display a transaction's data"
+  },
+  "transaction_not_on_viewblock": {
+    "message": "Not available on Viewblock",
+    "description": "Disabled viewblock link btn text"
+  },
+  "transaction_view_last": {
+    "message": "Click to view your last signed transaction",
+    "description": "View last tx prompt content"
+  },
+  "sign_item": {
+    "message": "Sign Item",
+    "description": "Sign message popup title"
+  },
+  "batch_sign_items": {
+    "message": "Batch Sign Items",
+    "description": "Batch sign message popup title"
+  },
+  "titles_signature": {
+    "message": "Sign message",
+    "description": "Sign message popup title"
+  },
+  "sign_data_description": {
+    "message": "$APPNAME$ wants to sign a transaction. Review the details below.",
+    "description": "Desription for signing an item containing a transfer",
+    "placeholders": {
+      "appname": {
+        "content": "$1",
+        "example": "permafacts.arweave.dev"
+      }
+    }
+  },
+  "batch_sign_data_description": {
+    "message": "$APPNAME$ wants to sign the following transactions. Review the details below.",
+    "description": "Desription for signing an item containing a transfer",
+    "placeholders": {
+      "appname": {
+        "content": "$1",
+        "example": "permafacts.arweave.dev"
+      }
+    }
+  },
+  "signature_description": {
+    "message": "$APPNAME$ wants to sign a message. Review the message below.",
+    "description": "App signature request for data that cannot be decoded to string",
+    "placeholders": {
+      "appname": {
+        "content": "$1",
+        "example": "permafacts.arweave.dev"
+      }
+    }
+  },
+  "signature_message": {
+    "message": "Message",
+    "description": "Signature message label"
+  },
+  "signature_authorize": {
+    "message": "Sign",
+    "description": "Sign message authorize button"
+  },
+  "titles_sign": {
+    "message": "Sign transaction",
+    "description": "Sign transaction popup title"
+  },
+  "sign_authorize": {
+    "message": "Authorize",
+    "description": "Authorize button label"
+  },
+  "sign_enter_password": {
+    "message": "Enter password to sign transaction",
+    "description": "Request to enter password to sign transaction"
+  },
+  "sign_scan_qr": {
+    "message": "Scan the QR code below with your hardware wallet",
+    "description": "Request to scan signature QR"
+  },
+  "generate_qr_code": {
+    "message": "Generate QR code",
+    "description": "Generate QR code button"
+  },
+  "generate_qr_code_title": {
+    "message": "Enter your password to generate QR Code",
+    "description": "Generate QR code title"
+  },
+  "cannot_generate_qr_code": {
+    "message": "Cannot generate QR code for your hardware wallet.",
+    "description": "Cannot generate QR text"
+  },
+  "viewblock": {
+    "message": "Viewblock",
+    "description": "view block"
+  },
+  "keystone_connect_title": {
+    "message": "Connect Keystone",
+    "description": "Connect keystone hardware wallet button"
+  },
+  "keystone_scan": {
+    "message": "Scan Response",
+    "description": "Notification about a keystone scanning error"
+  },
+  "keystone_scan_error": {
+    "message": "There was an error scanning the QR code",
+    "description": "Notification about a keystone scanning error"
+  },
+  "keystone_invalid_result_type": {
+    "message": "Invalid QR code detected",
+    "description": "Notification about an invalid QR code while trying to scan a keystone wallet QR code"
+  },
+  "keystone_scan_progress": {
+    "message": "Progress: $PROGRESS$",
+    "description": "Progress label for QR code scanning",
+    "placeholders": {
+      "progress": {
+        "content": "$1",
+        "example": "10%"
+      }
+    }
+  },
+  "keystone_loading_camera": {
+    "message": "Loading the scanner...",
+    "description": "Loading hardware wallet QR scanner text"
+  },
+  "keystone_disabled_camera": {
+    "message": "Your camera is disabled. Enable it to scan QR codes!",
+    "description": "Request to enable the built-in camera"
+  },
+  "keystone_allowed_camera": {
+    "message": "You've granted camera permissions. Please refresh the page!",
+    "description": "Request to refresh the page after granting camera permissions"
+  },
+  "keystone_features_warning": {
+    "message": "Keystone support is in beta. Some API features might not be supported.",
+    "description": "Warning about keystone support"
+  },
+  "keystone_ao_description": {
+    "message": "Keystone does not support sending ao tokens. Keystone only supports receiving ao tokens. Sending support coming soon.",
+    "description": "Description about keystone ao issue"
+  },
+  "keystone_ao_title": {
+    "message": "Keystone Error Detected.",
+    "description": "Title about keystone ao issue"
+  },
+  "keystone_ao_popup": {
+    "message": "Keystone does not support sending ao tokens. Keystone only supports receiving ao tokens. Sending support coming soon. Send and receiving AR Tokens is supported",
+    "description": "Popup description about keystone ao issue"
+  },
+  "keystone_ao_popup_title": {
+    "message": "Keystone AO Token Support Notice",
+    "description": "Popup description about keystone ao issue"
+  },
+  "token_price_estimate_warning": {
+    "message": "Price estimate by",
+    "description": "Price estimate warning text. Full text is displayed with a link to Redstone.finance"
+  },
+  "wallet_hardware_added": {
+    "message": "Added $WALLETTYPE$ wallet",
+    "description": "Notification on adding a hardware wallet",
+    "placeholders": {
+      "wallettype": {
+        "content": "$1",
+        "example": "Keystone"
+      }
+    }
+  },
+  "wallet_hardware_not_added": {
+    "message": "Could not add $WALLETTYPE$ wallet",
+    "description": "Notification on error when adding a hardware wallet",
+    "placeholders": {
+      "wallettype": {
+        "content": "$1",
+        "example": "Keystone"
+      }
+    }
+  },
+  "wallet_hardware_unsupported": {
+    "message": "This feature does not support hardware wallets",
+    "description": "Notification about a feature that does not support usage with a hardware wallet as an active/selected wallet"
+  },
+  "notification_title_native_tx": {
+    "message": "Transaction signed",
+    "description": "Notification title for signing a native tx"
+  },
+  "notification_title_dispatched_tx": {
+    "message": "Transaction dispatched",
+    "description": "Notification title for dispatching a tx"
+  },
+  "notification_description_native_tx": {
+    "message": "It cost a total of ~$PRICE$ AR",
+    "description": "Notification body for native tx signing",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "10,234.15"
+      }
+    }
+  },
+  "notification_description_dispatch_tx": {
+    "message": "It was submitted to The Bundlr Network",
+    "description": "Notification body for dispatched tx"
+  },
+  "transaction_send_add_target": {
+    "message": "Add recipient",
+    "description": "Add recipient title"
+  },
+  "transaction_send_address_input_label": {
+    "message": "Recipient",
+    "description": "Label for the address input"
+  },
+  "transaction_send_address_input_placeholder": {
+    "message": "Address, ANS or ArNS...",
+    "description": "Placeholder for the address input"
+  },
+  "transaction_send_scan_address": {
+    "message": "Scan address",
+    "description": "Scan address tooltip content"
+  },
+  "transaction_send_success": {
+    "message": "Sent transaction",
+    "description": "Sent transaction successfuly message"
+  },
+  "transaction_send_error": {
+    "message": "Could not send transaction",
+    "description": "Transaction failure"
+  },
+  "transaction_auth_ur_fail": {
+    "message": "Could not construct transaction QR code",
+    "description": "Error notification about failed signing QR generation"
+  },
+  "transaction_send_loading": {
+    "message": "Sending transaction...",
+    "description": "Sending transaction loading text"
+  },
+  "transaction_sending_token": {
+    "message": "Sending",
+    "description": "Sending token description in confirmation "
+  },
+  "not_connected": {
+    "message": "Not connected",
+    "description": "Not connected indicator"
+  },
+  "not_connected_text": {
+    "message": "\"Connect / Disconnect\" is a label for when your ArConnect wallet is connected to an Arweave or AO dapp.  For regular use like sending, receiving, checking balances, etc., ArConnect will always show disconnected.",
+    "description": "Not connected indicator explainer"
+  },
+  "disconnect": {
+    "message": "Disconnect",
+    "description": "Disconnect button text"
+  },
+  "disconnected": {
+    "message": "Disconnected",
+    "description": "Disconnected tooltip"
+  },
+  "account_connected": {
+    "message": "Account Connected",
+    "description": "Connected tooltip"
+  },
+  "copy_address": {
+    "message": "Copy address",
+    "description": "Click to copy address tooltip"
+  },
+  "expand_view": {
+    "message": "Expand view",
+    "description": "Click to open extension in a browser tab"
+  },
+  "allowance_edit": {
+    "message": "Edit allowance",
+    "description": "Edit allowance tooltip"
+  },
+  "balance_hide": {
+    "message": "Hide balance",
+    "description": "Hide balance tooltip"
+  },
+  "balance_show": {
+    "message": "Show balance",
+    "description": "Show balance tooltip"
+  },
+  "lock_wallet": {
+    "message": "Lock wallet",
+    "description": "Lock wallet and terminate current session icon button"
+  },
+  "home": {
+    "message": "Home",
+    "description": "Home Button"
+  },
+  "home_no_balance": {
+    "message": "Add $AR$ to get started",
+    "description": "No balance message on homescreen",
+    "placeholders": {
+      "ar": {
+        "content": "$1",
+        "example": "$AR"
+      }
+    }
+  },
+  "home_transfer_balance": {
+    "message": "Transfer AR",
+    "description": "Transfer balance button text"
+  },
+  "close_tab_generate_wallet_message": {
+    "message": "Are you sure you want to exit? Your new wallet is still being generated and will be lost.",
+    "description": "Confirmation message for the user who tries to close a tab where a wallet is still being generated"
+  },
+  "close_tab_load_wallet_message": {
+    "message": "Are you sure you want to exit? Your wallet is still being loaded, closing the tab will stop the process.",
+    "description": "Confirmation message for the user who tries to close a tab where a wallet is still being loaded"
+  },
+  "manage_assets_button": {
+    "message": "Manage assets",
+    "description": "Manage assets button"
+  },
+  "installation_complete": {
+    "message": "Installation completed",
+    "description": "Installation complete title"
+  },
+  "installation_complete_paragraph": {
+    "message": "Pin ArConnect to your browser so it's accessible and easy to connect to your favorite dApps.",
+    "description": "Installation complete paragraph"
+  },
+  "enable_notifications_title": {
+    "message": "Enable Notifications in ArConnect",
+    "description": "Enable Notification title"
+  },
+  "introducing_notifications": {
+    "message": "Introducing Notifications",
+    "description": "Alternative Enable Notification title"
+  },
+  "no_notifications": {
+    "message": "No notifications at this time.",
+    "description": "No notifications title"
+  },
+  "no_notifications_get_started": {
+    "message": "Send transactions to get started.",
+    "description": "Send Transactions to get notifications"
+  },
+  "enable_notifications_paragraph": {
+    "message": "Stay updated with instant alerts for transactions and ao messages.",
+    "description": "Enable notifications paragraph"
+  },
+  "alternative_enable_notifications_paragraph": {
+    "message": "Receive notifications instantly when a transaction processes.",
+    "description": "Enable notifications paragraph"
+  },
+  "toggle_notifications": {
+    "message": "Toggle notifications",
+    "description": "Toggle notifications text"
+  },
+  "toggle_notifications_decription": {
+    "message": "Toggle to receive alerts for new transactions in your wallet.",
+    "description": "Toggle notifications description text"
+  },
+  "get_started": {
+    "message": "Get Started",
+    "description": "Get started title"
+  },
+  "get_started_description": {
+    "message": "Explore the endless possibilities on Arweave and aoComputer through ArConnect",
+    "description": "Get started description"
+  },
+  "example_astro_description": {
+    "message": "Astro is a platform that allows users to mint the USDA stablecoin.",
+    "description": "placeholder for example get started"
+  },
+  "example_protocolland_description": {
+    "message": "Protocol.Land is a decentralized, source controlled, code collaboration platform.",
+    "description": "placeholder for example get started"
+  },
+  "example_publish_description": {
+    "message": "A provably neutral publishing platform aimed at dis-intermediating the truth. Publish assertions, and take your position in the Fact Marketplace!",
+    "description": "placeholder for example get started"
+  },
+  "example_botega_description": {
+    "message": "Botega is a decentralized exchange to swap assets on the aoComputer network.",
+    "description": "placeholder for example get started"
+  },
+  "connect_with_us_title": {
+    "message": "Connect with us",
+    "description": "Connect with us title"
+  },
+  "connect_paragraph": {
+    "message": "Follow us on X to stay up to date on all the latest that the team is working on.",
+    "description": "Connect with us description"
+  },
+  "connect_paragraph_2": {
+    "message": "Questions? Join the Discord server to chat with the developers.",
+    "description": "Connect with us description"
+  },
+  "buy_ar_button": {
+    "message": "Buy AR",
+    "description": "Buy AR with Onramper button text"
+  },
+  "buy_screen_title": {
+    "message": "Buy",
+    "description": "Buy AR with Onramper button text"
+  },
+  "buy_screen_pay": {
+    "message": "You Pay",
+    "description": "Payment input label title"
+  },
+  "buy_screen_receive": {
+    "message": "You Receive",
+    "description": "Receive input label title"
+  },
+  "buy_screen_switch": {
+    "message": "Switch",
+    "description": "Switch button"
+  },
+  "buy_screen_payment_method": {
+    "message": "Payment Method",
+    "description": "Select payment method title"
+  },
+  "buy_screen_enter": {
+    "message": "Enter amount",
+    "description": "Enter fiat amount placeholder"
+  },
+  "buy_screen_receive_x": {
+    "message": "xxxx.xxxx",
+    "description": "Receive quantity placeholder"
+  },
+  "AR_button": {
+    "message": "AR",
+    "description": "Receive quantity button text"
+  },
+  "credit_debit": {
+    "message": "Credit/Debit Card",
+    "description": "Buy screen payment method text"
+  },
+  "conversion_error": {
+    "message": "Failed to get quote: invalid fiat amount.",
+    "description": "Buy screen conversion error text"
+  },
+  "confirm_purchase_title": {
+    "message": "Add AR to your Wallet",
+    "description": "Confirm purchase header text"
+  },
+  "wallet_address": {
+    "message": "Wallet Address",
+    "description": "Confirm purchase wallet address header"
+  },
+  "order_details": {
+    "message": "Order details",
+    "description": "Confirm purchase order details title"
+  },
+  "confirm_rate": {
+    "message": "Rate",
+    "description": "Confirm purchase rate text"
+  },
+  "confirm_vendor_fee": {
+    "message": "Vendor fee",
+    "description": "Confirm purchase vendor fee text"
+  },
+  "confirm_total": {
+    "message": "Total",
+    "description": "Confirm purchase total cost text"
+  },
+  "close_purchase_pending": {
+    "message": "Close",
+    "description": "Close button text on purchase in progress page"
+  },
+  "congrats_purchase_pending": {
+    "message": "Congrats!",
+    "description": "Congrats text on purchase in progress page"
+  },
+  "info_purchase_pending": {
+    "message": "Your purchase is in progress. This may take up to 30-60 minutes to complete.",
+    "description": "Info message text on purchase in progress page"
+  },
+  "order_id_purchase_pending": {
+    "message": "Quote ID:",
+    "description": "Order ID text on purchase in progress page"
+  },
+  "choose_payment_method": {
+    "message": "Choose payment method",
+    "description": "Payment method input modal title text"
+  },
+  "choose_fiat_currency": {
+    "message": "Select fiat currency",
+    "description": "Fiat currency input modal title text"
+  },
+  "search_currency_placeholder": {
+    "message": "Enter currency name",
+    "description": "Currency search placeholder text"
+  },
+  "receive_AR_button": {
+    "message": "Receive AR",
+    "description": "Button text for the receive AR button"
+  },
+  "search_contacts": {
+    "message": "Search contacts...",
+    "description": "Search input placeholder for contacts"
+  },
+  "add_contact": {
+    "message": "Add contact",
+    "description": "Add a contact button text"
+  },
+  "new": {
+    "message": "New",
+    "description": "Add a new button text"
+  },
+  "send_transaction": {
+    "message": "Send transaction",
+    "description": "Active contact send button text"
+  },
+  "contact_info": {
+    "message": "Contact Info",
+    "description": "Contact settings title"
+  },
+  "user_not_in_contacts": {
+    "message": "This user is not in your contacts.",
+    "description": "Small message title on transaction confirmation page"
+  },
+  "create_contact": {
+    "message": "Create contact?",
+    "description": "Create contact question"
+  },
+  "new_contact": {
+    "message": "New Contact",
+    "description": "New contact title"
+  },
+  "add_new_contact": {
+    "message": "Add a new contact",
+    "description": "Add a new contact title"
+  },
+  "uploaded_avatar": {
+    "message": "Uploaded avatar to Arweave.",
+    "description": "Successful upload toast text"
+  },
+  "ArNS_address": {
+    "message": "ArNS Address",
+    "description": "Contact ArNS address subtitle"
+  },
+  "select_ArNS_address": {
+    "message": "Select ArNS address",
+    "description": "Select ArNS address text"
+  },
+  "no_ArNS_address_found": {
+    "message": "No ArNS address found",
+    "description": "No ArNS address found text"
+  },
+  "searching_ArNS_addresses": {
+    "message": "Searching ArNS addresses...",
+    "description": "Search ArNS addressess text"
+  },
+  "arweave_url": {
+    "message": "ar://",
+    "description": "Arweave address for ArNS names"
+  },
+  "contact_avatar": {
+    "message": "Avatar",
+    "description": "Contact Avatar subtitle"
+  },
+  "first_last_name": {
+    "message": "First and Last name",
+    "description": "Contact name input placeholder text"
+  },
+  "arweave_account_address": {
+    "message": "Arweave Account Address",
+    "description": "Contact arweave account address subtitle"
+  },
+  "account_address": {
+    "message": "Account address",
+    "description": "Contact account address input placeholder text"
+  },
+  "notes": {
+    "message": "Notes",
+    "description": "Contact notes subtitle"
+  },
+  "type_message_here": {
+    "message": "Type a message here...",
+    "description": "Contact notes input placeholder text"
+  },
+  "save_changes": {
+    "message": "Save changes",
+    "description": "Save button text"
+  },
+  "remove_contact": {
+    "message": "Remove contact",
+    "description": "Remove contact button text"
+  },
+  "edit_contact": {
+    "message": "Edit contact",
+    "description": "Edit contact button text"
+  },
+  "remove_contact_question": {
+    "message": "Are you sure you want to remove this contact?",
+    "description": "Remove contact modal text"
+  },
+  "save_new_contact": {
+    "message": "Save new contact",
+    "description": "Save new contact button text"
+  },
+  "save_contact": {
+    "message": "Save contact",
+    "description": "Save contact button text"
+  },
+  "address_in_use": {
+    "message": "Address is already in use.",
+    "description": "Contacts error message if address is already in use"
+  },
+  "password_allowance": {
+    "message": "Password required allowance",
+    "description": "Input title for the password allowance label"
+  },
+  "add": {
+    "message": "Add",
+    "description": "add button text"
+  },
+  "your_contacts": {
+    "message": "Your Contacts",
+    "desription": "Your Contacts title in Send Modal"
+  },
+  "check_address": {
+    "message": "Please check the recipient address",
+    "description": "Error message for invalid address/ArNS"
+  },
+  "incorrect_address": {
+    "message": "Incorrect recipient address",
+    "description": "Error message for invalid ANS"
+  },
+  "arns_added": {
+    "message": " ar://$ADDRESS$ added",
+    "description": "ArNS recipient added",
+    "placeholders": {
+      "address": {
+        "content": "$1",
+        "example": "Address"
+      }
+    }
+  },
+  "ans_added": {
+    "message": "$ADDRESS$ added",
+    "description": "ANS recipient added",
+    "placeholders": {
+      "address": {
+        "content": "$1",
+        "example": "Address"
+      }
+    }
+  },
+  "setting_ao_support": {
+    "message": "ao support",
+    "description": "ao support settings title"
+  },
+  "setting_ao_support_description": {
+    "message": "Show ao tokens in your wallet (beta)",
+    "description": "ao support settings description"
+  },
+  "got_it": {
+    "message": "Got it",
+    "description": "Got it button text"
+  },
+  "display_ao_tokens": {
+    "message": "Display AO tokens in ArConnect (Beta)",
+    "description": "Display AO tokens description"
+  },
+  "ao_computer": {
+    "message": "ao.computer",
+    "description": "ao computer url"
+  },
+  "ao_tokens": {
+    "message": "AO Tokens",
+    "description": "Ao Tokens"
+  },
+  "ao_announcement_text": {
+    "message": "Look out for new updates around ao in the future. To learn more visit",
+    "description": "ao announcement description text"
+  },
+  "ao_announcement_title": {
+    "message": "AO testnet is now live!",
+    "description": "ao announcement title text"
+  },
+  "ao_token_announcement_title": {
+    "message": "Congrats on earning AO Tokens for hodling AR! 🥳",
+    "description": "ao token announcement title text"
+  },
+  "ao_token_send_popup": {
+    "message": "The AO token is non transferable until February 8th, 2025 when 15% of AO has been minted.",
+    "description": "Popup description about ao token transfer"
+  },
+  "ao_token_send_popup_title": {
+    "message": "AO Token Transfer Notice",
+    "description": "Popup description about ao token transfer"
+  },
+  "ao_token_send_popup_learn_more": {
+    "message": "Learn More",
+    "description": "Popup description about ao token transfer learn more"
+  },
+  "ao_degraded": {
+    "message": "Token balance error",
+    "description": "ao degraded title text"
+  },
+  "ao_degraded_description": {
+    "message": "Oops, ArConnect is unable to fetch your token balance. Please try again later.",
+    "description": "ao degraded description text"
+  },
+  "network_issue": {
+    "message": "Network Issue Detected.",
+    "description": "network issue title text"
+  },
+  "network_issue_description": {
+    "message": "Your ISP or VPN is blocking access to AO.<br/> Please use a different connection.",
+    "description": "network issue description text"
+  },
+  "import_token": {
+    "message": "Import Token",
+    "description": "import token button description"
+  },
+  "token_already_added": {
+    "message": "Token Already Added",
+    "description": "token already imported"
+  },
+  "token_already_removed": {
+    "message": "Token Already Removed",
+    "description": "token already removed"
+  },
+  "token_imported": {
+    "message": "Token Succesfully Added",
+    "description": "token added"
+  },
+  "token_removed": {
+    "message": "Token Succesfully Removed",
+    "description": "token removed"
+  },
+  "transaction_complete": {
+    "message": "Transaction Complete",
+    "description": "transaction complete header"
+  },
+  "message": {
+    "message": "Message",
+    "description": "message header"
+  },
+  "subscription_allowance": {
+    "message": "Subscription Allowance",
+    "description": "subscription settings title"
+  },
+  "subscription_title": {
+    "message": "Subscription",
+    "description": "subscription title"
+  },
+  "subscriptions": {
+    "message": "Subscriptions",
+    "description": "subscriptions title"
+  },
+  "no_subscriptions": {
+    "message": "No subscriptions yet",
+    "description": "No subscriptions title"
+  },
+  "no_subscriptions_description": {
+    "message": "Your future subscriptions will be available here",
+    "description": "No subscriptions description"
+  },
+  "subscribe_description": {
+    "message": "APPNAME requests to set up a subscription with recurring payments",
+    "description": "subscribe description"
+  },
+  "subscription_description": {
+    "message": "Manage auto withdrawal allowance",
+    "description": "subscription setting description"
+  },
+  "subscription_cancelled": {
+    "message": "Subscription Cancelled",
+    "description": "The subscription has been successfully cancelled."
+  },
+  "subscription_cancelled_error": {
+    "message": "Subscription Cancellation Error",
+    "description": "There was an error cancelling the subscription. Please try again."
+  },
+  "subscription_deleted": {
+    "message": "Subscription Deleted",
+    "description": "The subscription has been successfully deleted."
+  },
+  "subscription_delete_error": {
+    "message": "Subscription Deletion Error",
+    "description": "There was an error deleting the subscription. Please try again."
+  },
+  "subscription_add_failure": {
+    "message": "Failed to add subscription",
+    "description": "Failed to add subscription error message"
+  },
+  "transaction_history_title": {
+    "message": "Transaction History",
+    "description": "Transaction History header"
+  },
+
+  "subscription_application_address": {
+    "message": "Application Address",
+    "description": "Address where payment will be made to"
+  },
+
+  "subscription_recurring_amount": {
+    "message": "Recurring payment amount",
+    "description": "Recurring payment amount"
+  },
+
+  "auto_renewal": {
+    "message": "Auto-renewal",
+    "description": "auto-renewal"
+  },
+  "auto_pay": {
+    "message": "Auto-Pay",
+    "description": "auto-pay"
+  },
+  "confirm_subscription": {
+    "message": "Confirm Subscription",
+    "description": "confirm subscription"
+  },
+
+  "continue": {
+    "message": "Continue",
+    "description": "Continue"
+  },
+
+  "end": {
+    "message": "End",
+    "description": "end"
+  },
+  "next_payment": {
+    "message": "Next payment",
+    "description": "next payment"
+  },
+  "start": {
+    "message": "Start",
+    "description": "start"
+  },
+  "Quarterly": {
+    "message": "Quarterly",
+    "description": "quarterly frequency"
+  },
+  "Monthly": {
+    "message": "Monthly",
+    "description": "monthly frequency"
+  },
+  "Weekly": {
+    "message": "Weekly",
+    "description": "weekly frequency"
+  },
+  "Daily": {
+    "message": "Daily",
+    "description": "daily frequency"
+  },
+  "transactions": {
+    "message": "Transactions",
+    "descriptions": "Transactions title"
+  },
+  "no_transactions": {
+    "message": "No transactions found",
+    "description": "No transactions message"
+  },
+  "no_contacts": {
+    "message": "No contacts found",
+    "description": "No contacts found"
+  },
+  "sent": {
+    "message": "Sent",
+    "description": "sent"
+  },
+  "received": {
+    "message": "Received",
+    "description": "received"
+  },
+  "password_warning_title": {
+    "message": "Password Strength Warning",
+    "description": "Weak password warning title"
+  },
+  "password_warning_description": {
+    "message": "Your password is currently weak. You can continue, but we recommend using a mix of:",
+    "description": "Password warning description"
+  },
+  "required": {
+    "message": "Required",
+    "description": "required"
+  },
+  "recommended": {
+    "message": "Recommended",
+    "description": "required"
+  },
+  "add_wallet_error_message": {
+    "message": "Please enter a recovery phrase or key file and enter the password to your ArConnect before continuing.",
+    "description": "Error message if recovery section is left blank"
+  },
+  "empty_password_error_message": {
+    "message": "Please enter the password to your ArConnect. Not the password to the wallet you are importing.",
+    "description": "Error message if password section is left blank"
+  },
+  "missing_recovery_error_message": {
+    "message": "Please enter a recovery phrase or key file before continuing.",
+    "description": "Error message if recovery phrase or key file is left blank"
+  },
+  "incorrect_password_error_message": {
+    "message": "Password incorrect. Please enter the password to your ArConnect and try again. Not the password to the wallet you are importing.",
+    "description": "Error message if password is incorrect"
+  },
+  "mismatch_warning_title": {
+    "message": "Wallet Mismatch Detected.",
+    "description": "Title for wallet mismatch warning on sda"
+  },
+  "mismatch_warning": {
+    "message": "Your wallet has a mismatched bit length. You can proceed, but may encounter errors. Transactions could fail or behave unexpectedly.",
+    "description": "warning for mismatch wallet"
+  },
+  "transak_unavailable": {
+    "message": "Transak is unavailable at the moment. Please try again later.",
+    "description": "Transak unavailable error message"
+  },
+  "print_archived": {
+    "message": "Print archived",
+    "description": "Print archived description"
+  },
+  "new_data_uploaded": {
+    "message": "New data uploaded",
+    "description": "New data uploaded description"
+  },
+  "sent_balance": {
+    "message": "Sent $QTY$ $TICKER$ to $ADDRESS$",
+    "description": "Sent balance description",
+    "placeholders": {
+      "qty": {
+        "content": "$1",
+        "example": "10"
+      },
+      "ticker": {
+        "content": "$2",
+        "example": "AR"
+      },
+      "address": {
+        "content": "$3",
+        "example": "ljvCPN31...-CS-6Iho8U"
+      }
+    }
+  },
+  "received_balance": {
+    "message": "Received $QTY$ $TICKER$ from $ADDRESS$",
+    "description": "Received balance description",
+    "placeholders": {
+      "qty": {
+        "content": "$1",
+        "example": "10"
+      },
+      "ticker": {
+        "content": "$2",
+        "example": "AR"
+      },
+      "address": {
+        "content": "$3",
+        "example": "ljvCPN31...-CS-6Iho8U"
+      }
+    }
+  },
+  "notification_from": {
+    "message": "from",
+    "description": "From description"
+  },
+  "notification_to": {
+    "message": "to",
+    "description": "To description"
+  },
+  "new_message": {
+    "message": "New message",
+    "description": "New message description"
+  },
+  "new_transaction": {
+    "message": "New transaction",
+    "description": "New transaction description"
+  }
+}
