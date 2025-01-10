@@ -1,4 +1,4 @@
-# Example project for using ArConnect with Botega using Playwright and TS.
+# Example project for using ArConnect with Botega with Playwright and TS.
 
 ## Prerequisites
 
